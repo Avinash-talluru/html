@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <h1> using a variable in the script</h1>
+    <script type="text/javascript">
+        var countbooks=100;
+        document.write('number of books=' + countbooks);
+    </script><br>
+    <script type="text/javascript">
+        var maths=90,physics=85,chemistry=95,averagemarks;
+        averagemarks=(maths+physics+chemistry)/3;
+        document.write('Average marks=' + averagemarks);
+    </script><br>
+    <script type="text/javascript">
+        var number=4;
+        if ((number%2)!=0)
+        {
+             document.write(number+' is odd number ')
+        }     
+        else{
+            document.write(number + ' is even number ')
+        }
+    </script><br>
+    <script type="text/javascript">
+        var number=4;
+        if (number==1)
+        {
+             document.write('number is one');
+        }     
+        else
+            if(number==2){
+                document.write('number is two');
+            }
+        else
+            if(number==3){document.write('number is three');} 
+        else{document.write('none');}    
+    </script><br>
+    <script type="text/javascript">
+        var totaldistance=0 ,fare=0;
+        while (totaldistance<=10){
+            fare=fare+5;
+            totaldistance=totaldistance+2;
+            document.write('rs '+fare+" for "+totaldistance+' km</br> ');
+        }
+        document.write(' thank u ')
+    </script><br>
+    <script type="text/javascript">
+        var number;
+        document.write('even number from 0 to 10 </br>');
+        for (number=0;number<=10;number=number+2){
+            document.write(number + "</br>");
+        }
+        document.write('thank u')
+    </script><br>
+    <h1>using a variable in the script</h1>
+    <script type="text/javascript">
+        alert('hello, i am alert box!');
+        var qry=confirm('are u sure to send the file to recycle bin');
+        if(qry){
+            document.write('ur file moved to recycle bin');
+
+        }
+        else{
+            document.write('file not moved')
+        }
+    </script>
+
+</body>
+</html>

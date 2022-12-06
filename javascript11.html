@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validateReqFields(thisform){
+            var username=thisform.uname.value;
+            var password=thisform.pw.value;
+            if (username=null [] userName==''){
+                alert('enter the username')
+                thisform.uname.focus():
+                return false;}
+            if (password==null [] password==''){
+                alert('enter the password')
+                thisform.pw.focus();
+                return false;}
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form action="submit.html" onsubmit="return validateReqFields(this)"
+    method="post">
+    user name:<input type="text" name="uname" /><br>
+    password:<input type="text" password="iloveu" /><br>
+    <INPUT type="submit" value="submit"/>
+
+</form>
+</body>
+</html>

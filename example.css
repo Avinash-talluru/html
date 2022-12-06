@@ -1,0 +1,29 @@
+*{margin:0;}
+
+body{
+    color:blue;
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 18pt;
+}
+p{
+    font-size: 12pt;
+}
+table{
+    background-color: #efefef;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(40, 26, 59, 0);
+}
+th{
+    background-color: #cccc;
+    font-weight: bold;
+    padding: 3px;
+}
+.code{
+    font-family: serif;
+    font-weight: bold;
+}
